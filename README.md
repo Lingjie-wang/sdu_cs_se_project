@@ -29,18 +29,18 @@ treer -i ".git" // 忽略 .git 文件夹
 概况：
 ```shell
 ├─README.md 
-├─pic // 存放图片
-├─Documents_about_Project // 存放项目文档
+├─img // 存放图片
+├─doc // 存放项目文档
 ```
 详细：
 
 ```shell
 ├─README.md
-├─pic
-├─Documents_about_Project
-|            ├─lab4
-|            ├─lab3
-|            ├─lab2
-|            ├─lab1
+├─img
+├─doc
+|   ├─lab4
+|   ├─lab3
+|   ├─lab2
+|   ├─lab1
 ```
 
