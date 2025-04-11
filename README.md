@@ -46,4 +46,4 @@ treer -i ".git" // 忽略 .git 文件夹
 
 ## test branch
 
-Creating a new branch is quick AND simple.
+Creating a new branch is fast AND simple.
