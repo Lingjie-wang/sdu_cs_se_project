@@ -44,6 +44,6 @@ treer -i ".git" // 忽略 .git 文件夹
 |   ├─lab1
 ```
 
-## test branch
+## main branch
 
-这里是为了测试 test 分支
+这里是为了测试分支合并冲突
