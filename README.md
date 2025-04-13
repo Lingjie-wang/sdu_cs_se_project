@@ -18,7 +18,7 @@
 使用命令：
 
 ```shell
-treer -i ".git" // 忽略 .git 文件夹
+treer -i ".git" ## 忽略 .git 文件夹
 ```
 
 > 参考：
@@ -29,8 +29,8 @@ treer -i ".git" // 忽略 .git 文件夹
 概况：
 ```shell
 ├─README.md 
-├─img // 存放图片
-├─doc // 存放项目文档
+├─img ## 存放图片
+├─doc ## 存放项目文档
 ```
 详细：
 
