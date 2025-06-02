@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gump.hrbackend.mapper.EmployeeMapper">
+
+    <resultMap id="BaseResultMap" type="com.gump.hrbackend.model.entity.Employee">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="empName" column="emp_name" jdbcType="VARCHAR"/>
+        <result property="empGender" column="emp_gender" jdbcType="TINYINT"/>
+        <result property="empEmail" column="emp_email" jdbcType="VARCHAR"/>
+        <result property="empPhone" column="emp_phone" jdbcType="VARCHAR"/>
+        <result property="postId" column="post_id" jdbcType="INTEGER"/>
+        <result property="deptId" column="dept_id" jdbcType="INTEGER"/>
+        <result property="hireDate" column="hire_date" jdbcType="TIMESTAMP"/>
+        <result property="resignDate" column="resign_date" jdbcType="TIMESTAMP"/>
+        <result property="empStatus" column="emp_status" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id
+        ,emp_name,emp_gender,
+        emp_email,emp_phone,post_id,
+        dept_id,hire_date,resign_date,
+        emp_status
+    </sql>
+</mapper>

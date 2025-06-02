@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gump.hrbackend.mapper.AttendanceMapper">
+
+    <resultMap id="BaseResultMap" type="com.gump.hrbackend.model.entity.Attendance">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="empId" column="emp_id" jdbcType="INTEGER"/>
+        <result property="empName" column="emp_name" jdbcType="VARCHAR"/>
+        <result property="attendanceDate" column="attendance_date" jdbcType="TIMESTAMP"/>
+        <result property="attendanceType" column="attendance_type" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id
+        ,emp_id,emp_name,
+        attendance_date,attendance_type
+    </sql>
+</mapper>

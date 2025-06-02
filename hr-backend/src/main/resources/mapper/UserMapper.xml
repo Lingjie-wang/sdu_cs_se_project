@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gump.hrbackend.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.gump.hrbackend.model.entity.User">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="userName" column="user_name" jdbcType="VARCHAR"/>
+        <result property="userAccount" column="user_account" jdbcType="VARCHAR"/>
+        <result property="userPassword" column="user_password" jdbcType="VARCHAR"/>
+        <result property="userAvatar" column="user_avatar" jdbcType="VARCHAR"/>
+        <result property="userRole" column="user_role" jdbcType="INTEGER"/>
+        <result property="registerTime" column="register_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id
+        ,user_name,user_account,
+        user_password,user_avatar,user_role,
+        register_time
+    </sql>
+</mapper>

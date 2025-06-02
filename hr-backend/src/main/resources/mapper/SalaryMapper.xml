@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gump.hrbackend.mapper.SalaryMapper">
+
+    <resultMap id="BaseResultMap" type="com.gump.hrbackend.model.entity.Salary">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="empId" column="emp_id" jdbcType="INTEGER"/>
+        <result property="empName" column="emp_name" jdbcType="VARCHAR"/>
+        <result property="postId" column="post_id" jdbcType="INTEGER"/>
+        <result property="wage" column="wage" jdbcType="INTEGER"/>
+        <result property="bonus" column="bonus" jdbcType="INTEGER"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id
+        ,emp_id,emp_name,
+        post_id,wage,bonus,
+        create_time
+    </sql>
+</mapper>
