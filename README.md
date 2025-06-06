@@ -47,3 +47,34 @@ treer -i ".git" ## 忽略 .git 文件夹
 ## main branch
 
 Creating a new branch is quick & simple.
+
+
+# 后端本地部署运行
+## 环境
+- Java8 + Maven
+- Mysql 5.7
+- IDEA
+- Spring Boot
+
+## 本地启动
+### 数据库
+- 运行 `src` 文件夹下的 `HR.sql` 执行建表语句以及插入语句
+
+### 修改配置文件
+- 本地运行时使用的配置文件路径 `src/main/resources/application.yml`
+- 修改 Mysql 密码 `spring.datasource.password` 修改成 Mysql 设置的密码
+
+### 运行
+- 本地运行 `src/main/java/com/jzq/hrprobackend/HrproBackendApplication.java`
+
+# 前端本地部署运行
+## 环境
+- Node 16.16.0
+
+## 下载前端需要的依赖
+- 终端中运行 `npm install`
+
+## 运行
+- 终端中运行 `npm run start:dev`
+
+> PS：第一次进入需要加载较长时间，请耐心等待
