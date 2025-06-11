@@ -150,9 +150,9 @@ INSERT INTO `employee` VALUES (8,'IG Rookie',1,'ibi3396@163.com','1234rtyu',4,2,
 -- --------------------------
 -- training records
 -- --------------------------
-INSERT INTO `training` VALUES (1,1,'T1' 'Faker','企业文化','2025-06-02 20:20:08',2,'蒋嘚');
-INSERT INTO `training` VALUES (2,5,'T1' 'Keria','职业技能','2025-06-02 20:21:56',8,'TheShy');
-INSERT INTO `training` VALUES (3,2,'T1' 'Zeus','规章制度','2025-06-02 20:22:18',6,'TheShy');
+INSERT INTO `training` VALUES (1,1,'T1 Faker','企业文化','2025-06-02 20:20:08',2,'蒋嘚');
+INSERT INTO `training` VALUES (2,5,'T1 Keria','职业技能','2025-06-02 20:21:56',8,'TheShy');
+INSERT INTO `training` VALUES (3,2,'T1 Zeus','规章制度','2025-06-02 20:22:18',6,'TheShy');
 
 -- --------------------------
 -- salary records
